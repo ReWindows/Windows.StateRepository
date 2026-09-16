@@ -1,0 +1,5004 @@
+//! Opaque handles for recovered C++ classes.
+#![allow(non_camel_case_types)]
+
+#[repr(C)]
+pub struct AutoBlockRequests { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct AutoUnregister { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct BlockRequests { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_ArrayOperations_class_StateRepository__DatabaseCacheEntry__class_StateRepository__DatabaseCacheEntry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_ArrayOperations_class_StateRepository__Notifications__NotificationChannel__class_StateRepository__Notifications__NotificationChannel { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_ArrayOperations_class_StateRepository__ProcessPackageDependency__PackageDependency__class_StateRepository__ProcessPackageDependency__PackageDependency { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_ArrayOperations_class_StateRepository__StatementCacheEntry__class_StateRepository__StatementCacheEntry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_Array_class_StateRepository__DatabaseCacheEntry__class_Common__ContainerOperations_class_StateRepository__DatabaseCacheEntry__class_StateRepository__DatabaseCacheEntry___char__class_Common__ContainerOperations_char__class_StateRepository__DatabaseCacheEntry___class_Common__ArrayOperations_class_StateRepository__DatabaseCacheEntry__class_StateRepository__DatabaseCacheEntry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_Array_class_StateRepository__Notifications__NotificationChannel__class_Common__ContainerOperations_class_StateRepository__Notifications__NotificationChannel__class_StateRepository__Notifications__NotificationChannel___unsigned_short__class_Common__ContainerOperations_unsigned_short__class_StateRepository__Notifications__NotificationChannel___class_Common__ArrayOperations_class_StateRepository__Notifications__NotificationChannel__class_StateRepository__Notifications__NotificationChannel { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_Array_class_StateRepository__ProcessPackageDependency__PackageDependency__class_Common__ContainerOperations_class_StateRepository__ProcessPackageDependency__PackageDependency__class_StateRepository__ProcessPackageDependency__PackageDependency___unsigned_short__class_Common__ContainerOperations_unsigned_short__class_StateRepository__ProcessPackageDependency__PackageDependency___class_Common__ArrayOperations_class_StateRepository__ProcessPackageDependency__PackageDependency__class_StateRepository__ProcessPackageDependency__PackageDependency { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_Array_class_StateRepository__StatementCacheEntry__class_Common__ContainerOperations_class_StateRepository__StatementCacheEntry__class_StateRepository__StatementCacheEntry___char__class_Common__ContainerOperations_char__class_StateRepository__StatementCacheEntry___class_Common__ArrayOperations_class_StateRepository__StatementCacheEntry__class_StateRepository__StatementCacheEntry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_Array_class_StateRepository__Text__class_Common__ContainerOperations_class_StateRepository__Text__class_StateRepository__Text___unsigned_short__class_Common__ContainerOperations_unsigned_short__class_StateRepository__Text___class_Common__ArrayOperations_class_StateRepository__Text__class_StateRepository__Text { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_AutoArray_unsigned_short__void____cdecl_Common__AutoArrayDeallocate_unsigned_short______unsigned_short { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_AutoCoImpersonate { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_AutoHandle { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_AutoHandleModule { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_AutoLock { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_AutoPtrCoTaskMem_unsigned_char { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_AutoPtrLocal_unsigned_char { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_AutoWinRTInitialize { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_Base32Encoding { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_BcryptLibrary { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_ByteBuffer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_CryptoProvider { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_FileInUseProcessInformation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_GenericMap_unsigned_short_const____unsigned_short_const { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_PathHelpers { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_RegistryKey { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_SidHelper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_StateSeparation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_StaticLock { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_String { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_StringBuffer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_StringBufferBuilder { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_StringBuilder { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_UInt32 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Common_UserProfile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IActivationStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppExecutionAliasStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppExecutionAliasUserStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppExtensionHostStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppExtensionStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppInstallerStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppInstallerUriStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppServiceStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppUriHandlerGroupStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppUriHandlerStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationBackgroundTaskStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationExtensionStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationIdentityStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationPropertyStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppxManifestStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAutoUpdatePackageStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IBundlePackageStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IBundleStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IContentGroupFileStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IContentGroupStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ICustomInstallWorkStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IDefaultTileStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IDependencyGraphStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IDynamicAppUriHandlerGroupStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IDynamicAppUriHandlerStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IEnterpriseStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IFileStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IFileTypeAssociationStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IHostRuntimeStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IMrtApplicationStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IMrtPackageStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IMrtSharedPriStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IMrtUserPriStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__INamedDependencyStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IOptionalBundleStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageAppInstallerStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageExtensionStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageExternalLocationStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageFamilyPolicyStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageFamilyStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageFamilyUserResourceStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageFamilyUserStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageIdentityStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageLocationStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageMachineStatusStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackagePolicyStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackagePropertyStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageSourceUriStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageStatics___struct_Windows__Internal__StateRepository__IPackageStatics2__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageUserStatics___struct_Windows__Internal__StateRepository__IPackageUserStatics2__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageUserStatusStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPkgExtensionHostStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPkgExtensionStatics___struct_Windows__Internal__StateRepository__IPkgExtensionStatics2__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPrimaryTileStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPrimaryTileUserChangelogStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPrimaryTileUserStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPrimaryTileViewStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IProtocolStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISecondaryTileStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISecondaryTileUserChangelogStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISecondaryTileUserStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISecondaryTileViewStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISharedPackageContainerPackageFamilyStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISharedPackageContainerStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ITargetDeviceFamilyStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ITileViewStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IUserStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IUupProductPackageStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IUupProductStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IXboxPackageStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Windows__Internal__StateRepository__IPrimaryTileUserNotificationChannelStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Windows__Internal__StateRepository__ISecondaryTileUserNotificationChannelStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IActivationStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IAppExecutionAliasStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IAppExecutionAliasUserStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IAppExtensionHostStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IAppExtensionStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IAppInstallerStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IAppInstallerUriStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IAppServiceStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IAppUriHandlerGroupStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IAppUriHandlerStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IApplicationBackgroundTaskStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IApplicationExtensionStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IApplicationIdentityStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IApplicationPropertyStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IApplicationStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IAppxManifestStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IAutoUpdatePackageStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IBundlePackageStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IBundleStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IContentGroupFileStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IContentGroupStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__ICustomInstallWorkStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IDefaultTileStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IDependencyGraphStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IDynamicAppUriHandlerGroupStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IDynamicAppUriHandlerStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IEnterpriseStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IFileStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IFileTypeAssociationStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IHostRuntimeStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IMrtApplicationStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IMrtPackageStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IMrtSharedPriStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IMrtUserPriStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__INamedDependencyStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IOptionalBundleStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPackageAppInstallerStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPackageExtensionStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPackageExternalLocationStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPackageFamilyPolicyStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPackageFamilyStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPackageFamilyUserResourceStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPackageFamilyUserStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPackageIdentityStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPackageLocationStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPackageMachineStatusStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPackagePolicyStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPackagePropertyStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPackageSourceUriStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPackageStatics__struct_Windows__Internal__StateRepository__IPackageStatics2__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPackageUserStatics__struct_Windows__Internal__StateRepository__IPackageUserStatics2__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPackageUserStatusStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPkgExtensionHostStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPkgExtensionStatics__struct_Windows__Internal__StateRepository__IPkgExtensionStatics2__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPrimaryTileStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPrimaryTileUserChangelogStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPrimaryTileUserStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IPrimaryTileViewStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IProtocolStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__ISecondaryTileStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__ISecondaryTileUserChangelogStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__ISecondaryTileUserStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__ISecondaryTileViewStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__ISharedPackageContainerPackageFamilyStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__ISharedPackageContainerStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__ITargetDeviceFamilyStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__ITileViewStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IUserStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IUupProductPackageStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IUupProductStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Internal__StateRepository__IXboxPackageStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__Activation____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__Activation_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__Activation_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__AppExecutionAliasUser____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__AppExecutionAliasUser_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__AppExecutionAliasUser_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__AppExecutionAlias____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__AppExecutionAlias_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__AppExecutionAlias_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__AppExtensionHost____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__AppExtensionHost_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__AppExtensionHost_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__AppExtension____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__AppExtension_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__AppExtension_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__AppInstallerUri____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__AppInstallerUri_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__AppInstallerUri_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__AppInstaller____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__AppInstaller_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__AppInstaller_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__AppService____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__AppService_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__AppService_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__AppUriHandlerGroup____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__AppUriHandlerGroup_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__AppUriHandlerGroup_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__AppUriHandlerLauncherInfo____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__AppUriHandlerLauncherInfo_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__AppUriHandlerLauncherInfo_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__AppUriHandler____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__AppUriHandler_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__AppUriHandler_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__ApplicationBackgroundTask____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__ApplicationBackgroundTask_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__ApplicationBackgroundTask_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__ApplicationExtension____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__ApplicationExtension_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__ApplicationExtension_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__ApplicationIdentity____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__ApplicationIdentity_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__ApplicationIdentity_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__ApplicationProperty____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__ApplicationProperty_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__ApplicationProperty_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__Application____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__Application_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__Application_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__AppxManifest____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__AppxManifest_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__AppxManifest_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__AutoUpdatePackage____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__AutoUpdatePackage_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__AutoUpdatePackage_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__BundlePackage____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__BundlePackage_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__BundlePackage_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__Bundle____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__Bundle_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__Bundle_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__ContentGroupFile____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__ContentGroupFile_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__ContentGroupFile_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__ContentGroup____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__ContentGroup_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__ContentGroup_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__CustomInstallWork____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__CustomInstallWork_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__CustomInstallWork_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__DefaultTile____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__DefaultTile_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__DefaultTile_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__DependencyGraph____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__DependencyGraph_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__DependencyGraph_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__DynamicAppUriHandlerGroup____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__DynamicAppUriHandlerGroup_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__DynamicAppUriHandlerGroup_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__DynamicAppUriHandler____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__DynamicAppUriHandler_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__DynamicAppUriHandler_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__Enterprise____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__Enterprise_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__Enterprise_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__FileTypeAssociationLauncherInfo____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__FileTypeAssociationLauncherInfo_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__FileTypeAssociationLauncherInfo_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__FileTypeAssociation____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__FileTypeAssociation_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__FileTypeAssociation_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__File____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__File_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__File_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__HostRuntime____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__HostRuntime_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__HostRuntime_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__MrtApplication____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__MrtApplication_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__MrtApplication_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__MrtPackage____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__MrtPackage_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__MrtPackage_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__MrtSharedPri____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__MrtSharedPri_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__MrtSharedPri_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__MrtUserPri____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__MrtUserPri_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__MrtUserPri_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__NamedDependency____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__NamedDependency_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__NamedDependency_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__OptionalBundle____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__OptionalBundle_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__OptionalBundle_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PackageAppInstaller____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PackageAppInstaller_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PackageAppInstaller_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PackageExtension____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PackageExtension_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PackageExtension_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PackageExternalLocation____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PackageExternalLocation_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PackageExternalLocation_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PackageFamilyPolicy____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PackageFamilyPolicy_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PackageFamilyPolicy_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PackageFamilyUserResource____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PackageFamilyUserResource_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PackageFamilyUserResource_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PackageFamilyUser____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PackageFamilyUser_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PackageFamilyUser_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PackageFamily____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PackageFamily_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PackageFamily_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PackageIdentity____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PackageIdentity_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PackageIdentity_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PackageLocation____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PackageLocation_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PackageLocation_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PackageMachineStatus____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PackageMachineStatus_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PackageMachineStatus_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PackagePolicy____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PackagePolicy_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PackagePolicy_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PackageProperty____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PackageProperty_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PackageProperty_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PackageSourceUri____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PackageSourceUri_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PackageSourceUri_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PackageUserStatus____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PackageUserStatus_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PackageUserStatus_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PackageUser____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PackageUser_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PackageUser_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__Package____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__Package_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__Package_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PkgExtensionHost____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PkgExtensionHost_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PkgExtensionHost_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PkgExtension____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PkgExtension_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PkgExtension_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PrimaryTileUserChangelog____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PrimaryTileUserChangelog_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PrimaryTileUserChangelog_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PrimaryTileUserDataChange____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PrimaryTileUserDataChange_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PrimaryTileUserDataChange_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PrimaryTileUser____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PrimaryTileUser_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PrimaryTileUser_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PrimaryTileView____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PrimaryTileView_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PrimaryTileView_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__PrimaryTile____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__PrimaryTile_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__PrimaryTile_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__ProtocolLauncherInfo____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__ProtocolLauncherInfo_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__ProtocolLauncherInfo_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__Protocol____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__Protocol_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__Protocol_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__SecondaryTileUserChangelog____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__SecondaryTileUserChangelog_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__SecondaryTileUserChangelog_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__SecondaryTileUserDataChange____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__SecondaryTileUserDataChange_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__SecondaryTileUserDataChange_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__SecondaryTileUser____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__SecondaryTileUser_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__SecondaryTileUser_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__SecondaryTileView____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__SecondaryTileView_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__SecondaryTileView_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__SecondaryTile____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__SecondaryTile_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__SecondaryTile_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__SharedPackageContainerPackageFamily____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__SharedPackageContainerPackageFamily_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__SharedPackageContainerPackageFamily_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__SharedPackageContainer____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__SharedPackageContainer_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__SharedPackageContainer_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__TargetDeviceFamily____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__TargetDeviceFamily_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__TargetDeviceFamily_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__TileView____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__TileView_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__TileView_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__User____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__User_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__User_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__UupProductPackage____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__UupProductPackage_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__UupProductPackage_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__UupProduct____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__UupProduct_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__UupProduct_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Internal__StateRepository__XboxPackage____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Internal__StateRepository__XboxPackage_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Internal__StateRepository__XboxPackage_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_struct_HSTRING_____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__Vector_struct_HSTRING_____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultVectorOptions_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__ActivationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__AppExecutionAliasServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__AppExecutionAliasUserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__AppExtensionHostServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__AppExtensionServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__AppInstallerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__AppInstallerUriServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__AppServiceServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__AppUriHandlerGroupServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__AppUriHandlerLauncherInfoServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__AppUriHandlerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__ApplicationBackgroundTaskServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__ApplicationExtensionServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__ApplicationIdentityServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__ApplicationPropertyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__ApplicationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__AppxManifestServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__AutoUpdatePackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__BundlePackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__BundleServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__ContentGroupFileServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__ContentGroupServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__CustomInstallWorkServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__DefaultTileServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__DependencyGraphServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__DynamicAppUriHandlerGroupServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__DynamicAppUriHandlerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__EnterpriseServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__FileServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__FileTypeAssociationLauncherInfoServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__FileTypeAssociationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__HostRuntimeServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__MrtApplicationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__MrtPackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__MrtSharedPriServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__MrtUserPriServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__NamedDependencyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__OptionalBundleServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PackageAppInstallerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PackageExtensionServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PackageExternalLocationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PackageFamilyPolicyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PackageFamilyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PackageFamilyUserResourceServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PackageFamilyUserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PackageIdentityServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PackageLocationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PackageMachineStatusServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PackagePolicyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PackagePropertyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PackageSourceUriServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PackageUserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PackageUserStatusServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PkgExtensionHostServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PkgExtensionServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PrimaryTileServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PrimaryTileUserChangelogServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PrimaryTileUserDataChangeServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PrimaryTileUserNotificationChannelServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PrimaryTileUserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__PrimaryTileViewServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__ProtocolLauncherInfoServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__ProtocolServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__SecondaryTileServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__SecondaryTileUserChangelogServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__SecondaryTileUserDataChangeServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__SecondaryTileUserNotificationChannelServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__SecondaryTileUserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__SecondaryTileViewServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__SharedPackageContainerPackageFamilyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__SharedPackageContainerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__TargetDeviceFamilyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__TileViewServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__UserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__UupProductPackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__UupProductServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Internal__StateRepository__XboxPackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_ICallingProcessInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IMarshal { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__Detail__IVectorStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IIterator_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IPropertySet { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IVector_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IUriRuntimeClass { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IUriRuntimeClassFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IActivation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IAppExecutionAlias { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IAppExecutionAliasUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IAppExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IAppExtensionHost { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IAppInstaller { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IAppInstallerUri { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IAppService { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IAppUriHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IAppUriHandlerGroup { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IAppUriHandlerLauncherInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IApplication { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IApplicationBackgroundTask { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IApplicationExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IApplicationIdentity { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IApplicationProperty { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IAppxManifest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IAutoUpdatePackage { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IBundle { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IBundlePackage { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IContentGroup { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IContentGroupFile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__ICustomInstallWork { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IDefaultTile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IDependencyGraph { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IDynamicAppUriHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IDynamicAppUriHandlerGroup { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IEnterprise { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IFile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IFileTypeAssociation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IFileTypeAssociationLauncherInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IHostRuntime { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IMrtApplication { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IMrtPackage { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IMrtSharedPri { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IMrtUserPri { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__INamedDependency { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IOptionalBundle { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackage { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackageAppInstaller { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackageExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackageExternalLocation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackageFamily { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackageFamilyPolicy { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackageFamilyUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackageFamilyUserResource { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackageIdentity { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackageLocation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackageMachineStatus { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackagePolicy { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackageProperty { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackageSourceUri { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackageUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackageUser2 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackageUserStatus { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPkgExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPkgExtensionHost { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPrimaryTile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPrimaryTileUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPrimaryTileUserChangelog { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPrimaryTileUserDataChange { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPrimaryTileUserNotificationChannel { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPrimaryTileView { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IProtocol { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IProtocolLauncherInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__ISecondaryTile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__ISecondaryTileUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__ISecondaryTileUserChangelog { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__ISecondaryTileUserDataChange { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__ISecondaryTileUserNotificationChannel { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__ISecondaryTileView { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__ISharedPackageContainer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__ISharedPackageContainerPackageFamily { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__ITargetDeviceFamily { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__ITileView { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IUupProduct { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IUupProductPackage { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IXboxPackage { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__Tiles__IMigrationHelper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__Tiles__IMigrationHelperFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Storage__Streams__IRandomAccessStreamReferenceStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__System__Internal__ISignInStateManager { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__System__Internal__IUserManagerStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IActivationStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppExecutionAliasStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppExecutionAliasUserStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppExtensionHostStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppExtensionStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppInstallerStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppInstallerUriStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppServiceStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppUriHandlerGroupStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppUriHandlerStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationBackgroundTaskStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationExtensionStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationIdentityStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationPropertyStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppxManifestStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAutoUpdatePackageStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IBundlePackageStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IBundleStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IContentGroupFileStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IContentGroupStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ICustomInstallWorkStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IDefaultTileStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IDependencyGraphStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IDynamicAppUriHandlerGroupStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IDynamicAppUriHandlerStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IEnterpriseStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IFileStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IFileTypeAssociationStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IHostRuntimeStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IMrtApplicationStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IMrtPackageStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IMrtSharedPriStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IMrtUserPriStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__INamedDependencyStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IOptionalBundleStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageAppInstallerStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageExtensionStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageExternalLocationStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageFamilyPolicyStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageFamilyStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageFamilyUserResourceStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageFamilyUserStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageIdentityStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageLocationStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageMachineStatusStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackagePolicyStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackagePropertyStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageSourceUriStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageStatics___struct_Windows__Internal__StateRepository__IPackageStatics2__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageUserStatics___struct_Windows__Internal__StateRepository__IPackageUserStatics2__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageUserStatusStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPkgExtensionHostStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPkgExtensionStatics___struct_Windows__Internal__StateRepository__IPkgExtensionStatics2__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPrimaryTileStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPrimaryTileUserChangelogStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPrimaryTileUserStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPrimaryTileViewStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IProtocolStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISecondaryTileStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISecondaryTileUserChangelogStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISecondaryTileUserStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISecondaryTileViewStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISharedPackageContainerPackageFamilyStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISharedPackageContainerStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ITargetDeviceFamilyStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ITileViewStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IUserStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IUupProductPackageStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IUupProductStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IXboxPackageStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Windows__Internal__StateRepository__IPrimaryTileUserNotificationChannelStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Windows__Internal__StateRepository__ISecondaryTileUserNotificationChannelStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IActivationStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppExecutionAliasStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppExecutionAliasUserStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppExtensionHostStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppExtensionStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppInstallerStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppInstallerUriStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppServiceStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppUriHandlerGroupStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppUriHandlerStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationBackgroundTaskStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationExtensionStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationIdentityStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationPropertyStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppxManifestStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAutoUpdatePackageStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IBundlePackageStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IBundleStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IContentGroupFileStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IContentGroupStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ICustomInstallWorkStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IDefaultTileStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IDependencyGraphStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IDynamicAppUriHandlerGroupStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IDynamicAppUriHandlerStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IEnterpriseStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IFileStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IFileTypeAssociationStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IHostRuntimeStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IMrtApplicationStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IMrtPackageStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IMrtSharedPriStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IMrtUserPriStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__INamedDependencyStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IOptionalBundleStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageAppInstallerStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageExtensionStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageExternalLocationStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageFamilyPolicyStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageFamilyStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageFamilyUserResourceStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageFamilyUserStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageIdentityStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageLocationStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageMachineStatusStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackagePolicyStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackagePropertyStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageSourceUriStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageStatics_____struct_Windows__Internal__StateRepository__IPackageStatics2__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageUserStatics_____struct_Windows__Internal__StateRepository__IPackageUserStatics2__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageUserStatusStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPkgExtensionHostStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPkgExtensionStatics_____struct_Windows__Internal__StateRepository__IPkgExtensionStatics2__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPrimaryTileStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPrimaryTileUserChangelogStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPrimaryTileUserStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPrimaryTileViewStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IProtocolStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISecondaryTileStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISecondaryTileUserChangelogStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISecondaryTileUserStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISecondaryTileViewStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISharedPackageContainerPackageFamilyStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISharedPackageContainerStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ITargetDeviceFamilyStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ITileViewStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IUserStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IUupProductPackageStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IUupProductStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IXboxPackageStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IActivation__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IAppExecutionAliasUser__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IAppExecutionAlias__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IAppExtensionHost__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IAppExtension__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IAppInstallerUri__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IAppInstaller__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IAppService__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IAppUriHandlerGroup__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IAppUriHandlerLauncherInfo__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IAppUriHandler__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IApplicationBackgroundTask__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IApplicationExtension__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IApplicationIdentity__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IApplicationProperty__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IApplication__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IAppxManifest__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IAutoUpdatePackage__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IBundlePackage__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IBundle__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IContentGroupFile__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IContentGroup__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__ICustomInstallWork__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IDefaultTile__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IDependencyGraph__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IDeploymentHistory__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IDynamicAppUriHandlerGroup__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IDynamicAppUriHandler__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IEnterprise__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IFileTypeAssociationLauncherInfo__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IFileTypeAssociation__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IFile__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IHostRuntime__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IMrtApplication__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IMrtPackage__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IMrtSharedPri__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IMrtUserPri__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__INamedDependency__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IOptionalBundle__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPackageAppInstaller__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPackageExtension__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPackageExternalLocation__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPackageFamilyPolicy__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPackageFamilyUserResource__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPackageFamilyUser__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPackageFamily__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPackageIdentity__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPackageLocation__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPackageMachineStatus__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPackagePolicy__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPackageProperty__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPackageSourceUri__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPackageUserStatus__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPackage__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPkgExtensionHost__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPkgExtension__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPrimaryTileUserChangelog__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPrimaryTileUser__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPrimaryTileView__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IPrimaryTile__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IProtocolLauncherInfo__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IProtocol__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__ISecondaryTileUserChangelog__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__ISecondaryTileUser__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__ISecondaryTileView__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__ISecondaryTile__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__ISharedPackageContainerPackageFamily__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__ISharedPackageContainer__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__ITargetDeviceFamily__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__ITileViewQueryFilter__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IUser__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IUupProductPackage__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IUupProduct__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__IXboxPackage__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Internal__StateRepository__Management__IRepositoryManager__struct_IWeakReferenceSource__struct_Windows__Internal__StateRepository__Management__IRepositoryManager2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_Windows__Internal__StateRepository__IPackageUser2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_Windows__Internal__StateRepository__ITileView2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_Windows__Internal__StateRepository__Management__IRepositoryManager2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IActivationStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IAppExecutionAliasStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IAppExecutionAliasUserStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IAppExtensionHostStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IAppExtensionStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IAppInstallerStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IAppInstallerUriStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IAppServiceStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IAppUriHandlerGroupStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IAppUriHandlerStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IApplicationBackgroundTaskStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IApplicationExtensionStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IApplicationIdentityStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IApplicationPropertyStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IApplicationStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IAppxManifestStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IAutoUpdatePackageStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IBundlePackageStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IBundleStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IContentGroupFileStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IContentGroupStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__ICustomInstallWorkStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IDefaultTileStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IDependencyGraphStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IDynamicAppUriHandlerGroupStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IDynamicAppUriHandlerStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IEnterpriseStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IFileStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IFileTypeAssociationStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IHostRuntimeStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IMrtApplicationStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IMrtPackageStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IMrtSharedPriStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IMrtUserPriStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__INamedDependencyStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IOptionalBundleStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPackageAppInstallerStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPackageExtensionStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPackageExternalLocationStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPackageFamilyPolicyStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPackageFamilyStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPackageFamilyUserResourceStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPackageFamilyUserStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPackageIdentityStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPackageLocationStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPackageMachineStatusStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPackagePolicyStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPackagePropertyStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPackageSourceUriStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPackageStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPackageUserStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPackageUserStatusStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPkgExtensionHostStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPkgExtensionStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPrimaryTileStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPrimaryTileUserChangelogStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPrimaryTileUserStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IPrimaryTileViewStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IProtocolStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__ISecondaryTileStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__ISecondaryTileUserChangelogStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__ISecondaryTileUserStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__ISecondaryTileViewStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__ISharedPackageContainerPackageFamilyStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__ISharedPackageContainerStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__ITargetDeviceFamilyStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__ITileViewStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IUserStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IUupProductPackageStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IUupProductStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Internal__StateRepository__IXboxPackageStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Internal__StateRepository__IPackageUser2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Internal__StateRepository__ITileView2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Internal__StateRepository__Management__IRepositoryManager2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__Details__WeakReferenceImpl { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__SimpleSealedActivationFactory_class_Windows__Internal__StateRepository__AppUriHandlerLauncherInfoServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__SimpleSealedActivationFactory_class_Windows__Internal__StateRepository__DeploymentHistoryServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__SimpleSealedActivationFactory_class_Windows__Internal__StateRepository__FileTypeAssociationLauncherInfoServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__SimpleSealedActivationFactory_class_Windows__Internal__StateRepository__Management__RepositoryManagerServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__SimpleSealedActivationFactory_class_Windows__Internal__StateRepository__PrimaryTileUserDataChangeServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__SimpleSealedActivationFactory_class_Windows__Internal__StateRepository__ProtocolLauncherInfoServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__SimpleSealedActivationFactory_class_Windows__Internal__StateRepository__SecondaryTileUserDataChangeServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__SimpleSealedActivationFactory_class_Windows__Internal__StateRepository__TileViewQueryFilterServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ActivationFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ActivationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppExecutionAliasFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppExecutionAliasServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppExecutionAliasUserFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppExecutionAliasUserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppExtensionFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppExtensionHostFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppExtensionHostServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppExtensionServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppInstallerFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppInstallerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppInstallerUriFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppInstallerUriServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppServiceFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppServiceServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppUriHandlerFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppUriHandlerGroupFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppUriHandlerGroupServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppUriHandlerLauncherInfoServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppUriHandlerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ApplicationBackgroundTaskFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ApplicationBackgroundTaskServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ApplicationExtensionFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ApplicationExtensionServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ApplicationFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ApplicationIdentityFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ApplicationIdentityServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ApplicationPropertyFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ApplicationPropertyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ApplicationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppxManifestFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AppxManifestServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AutoUpdatePackageFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__AutoUpdatePackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__BundleFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__BundlePackageFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__BundlePackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__BundleServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ContentGroupFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ContentGroupFileFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ContentGroupFileServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ContentGroupServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__CustomInstallWorkFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__CustomInstallWorkServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__DefaultTileFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__DefaultTileServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__DependencyGraphFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__DependencyGraphServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__DeploymentHistoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__DynamicAppUriHandlerFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__DynamicAppUriHandlerGroupFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__DynamicAppUriHandlerGroupServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__DynamicAppUriHandlerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__EnterpriseFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__EnterpriseServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__FileFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__FileServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__FileTypeAssociationFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__FileTypeAssociationLauncherInfoServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__FileTypeAssociationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__HostRuntimeFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__HostRuntimeServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__MrtApplicationFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__MrtApplicationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__MrtPackageFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__MrtPackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__MrtSharedPriFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__MrtSharedPriServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__MrtUserPriFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__MrtUserPriServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__NamedDependencyFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__NamedDependencyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__OptionalBundleFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__OptionalBundleServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageAppInstallerFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageAppInstallerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageExtensionFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageExtensionServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageExternalLocationFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageExternalLocationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageFamilyFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageFamilyPolicyFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageFamilyPolicyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageFamilyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageFamilyUserFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageFamilyUserResourceFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageFamilyUserResourceServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageFamilyUserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageIdentityFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageIdentityServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageLocationFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageLocationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageMachineStatusFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageMachineStatusServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackagePolicyFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackagePolicyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackagePropertyFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackagePropertyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageSourceUriFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageSourceUriServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageUserFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageUserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageUserStatusFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PackageUserStatusServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PkgExtensionFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PkgExtensionHostFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PkgExtensionHostServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PkgExtensionServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PrimaryTileFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PrimaryTileServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PrimaryTileUserChangelogFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PrimaryTileUserChangelogServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PrimaryTileUserDataChangeServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PrimaryTileUserFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PrimaryTileUserNotificationChannelFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PrimaryTileUserNotificationChannelServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PrimaryTileUserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PrimaryTileViewFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__PrimaryTileViewServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ProtocolFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ProtocolLauncherInfoServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__ProtocolServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__SecondaryTileFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__SecondaryTileServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__SecondaryTileUserChangelogFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__SecondaryTileUserChangelogServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__SecondaryTileUserDataChangeServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__SecondaryTileUserFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__SecondaryTileUserNotificationChannelFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__SecondaryTileUserNotificationChannelServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__SecondaryTileUserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__SecondaryTileViewFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__SecondaryTileViewServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__SharedPackageContainerFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__SharedPackageContainerPackageFamilyFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__SharedPackageContainerPackageFamilyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__SharedPackageContainerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__TargetDeviceFamilyFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__TargetDeviceFamilyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__TileViewFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__TileViewServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__UserFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__UserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__UupProductFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__UupProductPackageFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__UupProductPackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__UupProductServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__XboxPackageFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__StateRepository__XboxPackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ModuleBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_OutOfProcModuleBase_class_MyServiceModule { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_OutOfProcModuleBase_class_MyServiceModule__GenericReleaseNotifier_void____cdecl____void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_OutOfProcModuleBase_class_MyServiceModule__ReleaseNotifier { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassBaseT_1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassBaseT_13 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_13___0__1__0__struct_IActivationFactory__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_13___0__1__0__struct_IActivationFactory__struct_Windows__Internal__StateRepository__IPrimaryTileUserNotificationChannelStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_13___0__1__0__struct_IActivationFactory__struct_Windows__Internal__StateRepository__ISecondaryTileUserNotificationChannelStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IActivation__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IAppExecutionAliasUser__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IAppExecutionAlias__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IAppExtensionHost__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IAppExtension__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IAppInstallerUri__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IAppInstaller__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IAppService__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IAppUriHandlerGroup__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IAppUriHandlerLauncherInfo__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IAppUriHandler__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IApplicationBackgroundTask__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IApplicationExtension__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IApplicationIdentity__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IApplicationProperty__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IApplication__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IAppxManifest__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IAutoUpdatePackage__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IBundlePackage__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IBundle__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IContentGroupFile__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IContentGroup__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__ICustomInstallWork__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IDefaultTile__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IDependencyGraph__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IDeploymentHistory__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IDynamicAppUriHandlerGroup__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IDynamicAppUriHandler__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IEnterprise__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IFileTypeAssociationLauncherInfo__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IFileTypeAssociation__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IFile__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IHostRuntime__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IMrtApplication__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IMrtPackage__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IMrtSharedPri__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IMrtUserPri__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__INamedDependency__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IOptionalBundle__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPackageAppInstaller__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPackageExtension__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPackageExternalLocation__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPackageFamilyPolicy__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPackageFamilyUserResource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPackageFamilyUser__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPackageFamily__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPackageIdentity__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPackageLocation__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPackageMachineStatus__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPackagePolicy__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPackageProperty__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPackageSourceUri__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPackageUserStatus__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPackageUser__struct_Windows__Internal__StateRepository__IPackageUser2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPackage__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPkgExtensionHost__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPkgExtension__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPrimaryTileUserChangelog__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPrimaryTileUserDataChange { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPrimaryTileUserNotificationChannel { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPrimaryTileUser__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPrimaryTileView__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IPrimaryTile__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IProtocolLauncherInfo__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IProtocol__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__ISecondaryTileUserChangelog__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__ISecondaryTileUserDataChange { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__ISecondaryTileUserNotificationChannel { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__ISecondaryTileUser__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__ISecondaryTileView__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__ISecondaryTile__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__ISharedPackageContainerPackageFamily__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__ISharedPackageContainer__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__ITargetDeviceFamily__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__ITileViewQueryFilter__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__ITileView__struct_Windows__Internal__StateRepository__ITileView2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IUser__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IUupProductPackage__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IUupProduct__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__IXboxPackage__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Internal__StateRepository__Management__IRepositoryManager__struct_Windows__Internal__StateRepository__Management__IRepositoryManager2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_IWeakReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClass_struct_Microsoft__WRL__Details__InterfaceListHelper_struct_IActivationFactory__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil___struct_Microsoft__WRL__RuntimeClassFlags_13___0__1__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClass_struct_Microsoft__WRL__Details__InterfaceListHelper_struct_IActivationFactory__struct_Windows__Internal__StateRepository__IPrimaryTileUserNotificationChannelStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil___struct_Microsoft__WRL__RuntimeClassFlags_13___0__1__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClass_struct_Microsoft__WRL__Details__InterfaceListHelper_struct_IActivationFactory__struct_Windows__Internal__StateRepository__ISecondaryTileUserNotificationChannelStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil___struct_Microsoft__WRL__RuntimeClassFlags_13___0__1__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_StaticStorage_class_Microsoft__WRL__Details__OutOfProcModuleBase_class_MyServiceModule___GenericReleaseNotifier_void____cdecl____void____2__class_MyServiceModule { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_StaticStorage_class_MyServiceModule__1__int { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_WeakReferenceImpl { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IActivationStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppExecutionAliasStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppExecutionAliasUserStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppExtensionHostStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppExtensionStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppInstallerStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppInstallerUriStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppServiceStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppUriHandlerGroupStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppUriHandlerStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationBackgroundTaskStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationExtensionStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationIdentityStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationPropertyStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IApplicationStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAppxManifestStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IAutoUpdatePackageStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IBundlePackageStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IBundleStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IContentGroupFileStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IContentGroupStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ICustomInstallWorkStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IDefaultTileStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IDependencyGraphStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IDynamicAppUriHandlerGroupStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IDynamicAppUriHandlerStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IEnterpriseStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IFileStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IFileTypeAssociationStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IHostRuntimeStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IMrtApplicationStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IMrtPackageStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IMrtSharedPriStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IMrtUserPriStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__INamedDependencyStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IOptionalBundleStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageAppInstallerStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageExtensionStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageExternalLocationStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageFamilyPolicyStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageFamilyStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageFamilyUserResourceStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageFamilyUserStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageIdentityStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageLocationStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageMachineStatusStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackagePolicyStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackagePropertyStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageSourceUriStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageUserStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPackageUserStatusStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPkgExtensionHostStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPkgExtensionStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPrimaryTileStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPrimaryTileUserChangelogStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPrimaryTileUserStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IPrimaryTileViewStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IProtocolStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISecondaryTileStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISecondaryTileUserChangelogStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISecondaryTileUserStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISecondaryTileViewStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISharedPackageContainerPackageFamilyStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ISharedPackageContainerStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ITargetDeviceFamilyStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__ITileViewStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IUserStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IUupProductPackageStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IUupProductStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Internal__StateRepository__IXboxPackageStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Module_1__class_MyServiceModule { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Module_2__class_MyServiceModule { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_IWeakReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IActivation__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IAppExecutionAliasUser__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IAppExecutionAlias__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IAppExtensionHost__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IAppExtension__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IAppInstallerUri__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IAppInstaller__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IAppService__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IAppUriHandlerGroup__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IAppUriHandlerLauncherInfo__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IAppUriHandler__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IApplicationBackgroundTask__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IApplicationExtension__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IApplicationIdentity__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IApplicationProperty__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IApplication__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IAppxManifest__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IAutoUpdatePackage__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IBundlePackage__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IBundle__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IContentGroupFile__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IContentGroup__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__ICustomInstallWork__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IDefaultTile__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IDependencyGraph__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IDeploymentHistory__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IDynamicAppUriHandlerGroup__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IDynamicAppUriHandler__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IEnterprise__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IFileTypeAssociationLauncherInfo__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IFileTypeAssociation__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IFile__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IHostRuntime__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IMrtApplication__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IMrtPackage__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IMrtSharedPri__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IMrtUserPri__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__INamedDependency__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IOptionalBundle__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPackageAppInstaller__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPackageExtension__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPackageExternalLocation__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPackageFamilyPolicy__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPackageFamilyUserResource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPackageFamilyUser__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPackageFamily__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPackageIdentity__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPackageLocation__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPackageMachineStatus__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPackagePolicy__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPackageProperty__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPackageSourceUri__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPackageUserStatus__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPackageUser__struct_Windows__Internal__StateRepository__IPackageUser2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPackage__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPkgExtensionHost__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPkgExtension__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPrimaryTileUserChangelog__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPrimaryTileUserDataChange { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPrimaryTileUserNotificationChannel { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPrimaryTileUser__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPrimaryTileView__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IPrimaryTile__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IProtocolLauncherInfo__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IProtocol__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__ISecondaryTileUserChangelog__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__ISecondaryTileUserDataChange { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__ISecondaryTileUserNotificationChannel { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__ISecondaryTileUser__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__ISecondaryTileView__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__ISecondaryTile__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__ISharedPackageContainerPackageFamily__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__ISharedPackageContainer__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__ITargetDeviceFamily__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__ITileViewQueryFilter__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__ITileView__struct_Windows__Internal__StateRepository__ITileView2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IUser__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IUupProductPackage__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IUupProduct__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__IXboxPackage__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Internal__StateRepository__Management__IRepositoryManager__struct_Windows__Internal__StateRepository__Management__IRepositoryManager2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleActivationFactory_class_Windows__Internal__StateRepository__AppUriHandlerLauncherInfoServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleActivationFactory_class_Windows__Internal__StateRepository__DeploymentHistoryServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleActivationFactory_class_Windows__Internal__StateRepository__FileTypeAssociationLauncherInfoServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleActivationFactory_class_Windows__Internal__StateRepository__Management__RepositoryManagerServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleActivationFactory_class_Windows__Internal__StateRepository__PrimaryTileUserDataChangeServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleActivationFactory_class_Windows__Internal__StateRepository__ProtocolLauncherInfoServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleActivationFactory_class_Windows__Internal__StateRepository__SecondaryTileUserDataChangeServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleActivationFactory_class_Windows__Internal__StateRepository__TileViewQueryFilterServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleSealedActivationFactory_class_Windows__Internal__StateRepository__AppUriHandlerLauncherInfoServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleSealedActivationFactory_class_Windows__Internal__StateRepository__DeploymentHistoryServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleSealedActivationFactory_class_Windows__Internal__StateRepository__FileTypeAssociationLauncherInfoServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleSealedActivationFactory_class_Windows__Internal__StateRepository__Management__RepositoryManagerServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleSealedActivationFactory_class_Windows__Internal__StateRepository__PrimaryTileUserDataChangeServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleSealedActivationFactory_class_Windows__Internal__StateRepository__ProtocolLauncherInfoServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleSealedActivationFactory_class_Windows__Internal__StateRepository__SecondaryTileUserDataChangeServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleSealedActivationFactory_class_Windows__Internal__StateRepository__TileViewQueryFilterServer__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers_HString { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers_HStringReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct MyServiceModule { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct ResolveTrackingEntry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_AutoAddDatabaseToCache { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_AutoCoSid { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_AutoDetachDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_AutoEnableTriggersScopeExit { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_AutoSid { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_AutoTransaction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Blob { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_CacheManagement { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Context_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_ActivationIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_Activation_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_AppExtensionIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_AppExtension_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_AppUriHandlerGroupIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_AppUriHandlerGroup_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_AppUriHandlerIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_AppUriHandler_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_ApplicationExtensionIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_ApplicationExtension_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_ApplicationIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_ApplicationUserIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_ApplicationUser_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_Application_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_DependencyGraphIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_DependencyGraph_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_DynamicAppUriHandlerGroupIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_DynamicAppUriHandlerGroup_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_DynamicAppUriHandlerIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_DynamicAppUriHandler_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_FileTypeAssociationIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_FileTypeAssociation_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_HostRuntimeIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_HostRuntime_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_OptionalBundleIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_OptionalBundle_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackageExtensionIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackageExtension_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackageExternalLocationIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackageExternalLocation_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackageFamilyIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackageFamilyUserIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackageFamilyUser_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackageFamily_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackageIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackageMachineStatusIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackageMachineStatus_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackagePropertyIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackageProperty_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackageUserIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackageUserStatusIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackageUserStatus_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PackageUser_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_Package_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PkgExtensionIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_PkgExtension_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_ProtocolIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_Protocol_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_SecondaryTileUserIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_SecondaryTileUser_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_UserIterator_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Entity_User_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Key_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_Manager_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Cache_MultiKey_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ChangeTracking { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_DataType_Hasher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_DataType_ProgId_Hasher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_DataType_Temporal { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Database { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_DatabaseCache { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_DatabaseCacheEntry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_DatabaseCacheSingleton { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_DatabaseTriggers { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_DictionarySerialization_Writer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entities { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_Activation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_AppExecutionAlias { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_AppExecutionAliasUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_AppExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_AppExtensionHost { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_AppInstaller { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_AppInstallerUri { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_AppService { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_AppUriHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_AppUriHandlerGroup { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_AppUriHandlerLauncherInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_Application { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_ApplicationBackgroundTask { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_ApplicationContentUriRule { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_ApplicationExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_ApplicationIdentity { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_ApplicationProperty { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_ApplicationUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_AppxExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_AppxManifest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_AutoUpdatePackage { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_Bundle { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_BundlePackage { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_BundleResource { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CacheActivation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CacheAppExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CacheAppUriHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CacheAppUriHandlerGroup { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CacheApplication { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CacheApplicationExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CacheApplicationUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CacheDependencyGraph { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CacheDynamicAppUriHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CacheDynamicAppUriHandlerGroup { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CacheFileTypeAssociation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CacheHostRuntime { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CacheOptionalBundle { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CachePackage { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CachePackageExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CachePackageExternalLocation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CachePackageFamily { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CachePackageFamilyUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CachePackageMachineStatus { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CachePackageProperty { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CachePackageUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CachePackageUserStatus { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CachePkgExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CacheProtocol { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CacheSecondaryTileUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CacheUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_ConnectedSet { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_ConnectedSetPackageFamily { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_ContentGroup { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_ContentGroupFile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_CustomInstallWork { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_DefaultTile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_Dependency { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_DependencyGraph { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_DeploymentHistory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_DynamicAppUriHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_DynamicAppUriHandlerGroup { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_EndOfLifePackage { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_Enterprise { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_File { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_FileTypeAssociation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_FileTypeAssociationLauncherInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_HostRuntime { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_MigratorPatch { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_MrtApplication { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_MrtDefaultTile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_MrtPackage { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_MrtSharedPri { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_MrtUserPri { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_NamedDependency { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_OptionalBundle { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_OptionalBundlePackage { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_OptionalBundleResource { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_Package { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackageAppInstaller { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackageDependency { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackageExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackageExternalLocation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackageFamily { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackageFamilyPolicy { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackageFamilyUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackageFamilyUserResource { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackageIdentity { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackageLocation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackageMachineStatus { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackagePolicy { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackageProperty { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackageSourceUri { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackageSuperceded { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackageUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PackageUserStatus { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PkgExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PkgExtensionHost { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PrimaryTile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PrimaryTileUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PrimaryTileUserChangelog { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PrimaryTileUserDataChange { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PrimaryTileView { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_Protocol { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_ProtocolLauncherInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_ProvisionedPackage { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_ProvisionedPackageDeleted { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_ProvisionedPackageExclude { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_PublisherCacheFolder { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_Resource { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_SRHistory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_SRJournal { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_SRJournalArchive { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_SecondaryTile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_SecondaryTileUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_SecondaryTileUserChangelog { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_SecondaryTileUserDataChange { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_SecondaryTileView { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_Sequence { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_SharedPackageContainer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_SharedPackageContainerPackageFamily { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_TargetDeviceFamily { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_TileView { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_TileViewQueryFilter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_User { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_UupProduct { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_UupProductPackage { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_WorkInProgress { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_WowDependencyGraph { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Entity_XboxPackage { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ErrorTracking_details { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Globals { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Globals_PartitionSettings { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Globals_PolicySettings { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Globals_Registry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Integrity { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Localization { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_CacheManagement_Cache_Initialize { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_CacheManagement_Cache_Shutdown { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_CacheManagement_Cache_Update { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_DatabaseCache_Clear { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Database_Analyze { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Database_Analyze_Incremental { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Database_Checkpoint { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Database_Reindex { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Database_ReindexIndices { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Database_Reindex_Incremental { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Database_UpdateStatistics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Entity_WorkInProgress_Cache_CheckAllCascadingInMachinePartition { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Entity_WorkInProgress_CheckAllCascadingInDeploymentPartition { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Entity_WorkInProgress_CheckAllCascadingInMachinePartition { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Entity_WorkInProgress_FixAllCascadingInDeploymentPartition { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Entity_WorkInProgress_FixAllCascadingInMachinePartition { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Entity_WorkInProgress_GC { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Entity_WorkInProgress_GCChangelogs { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Entity_WorkInProgress_GCTimeToLiveExpired { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Entity_WorkInProgress_PostCheckAllCascadingInMachinePartition { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Entity_WorkInProgress_PostFixAllCascadingInMachinePartition { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Integrity_Check { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Integrity_Fix { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Maintenance_DoMaintenance { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Repair_DoRepair { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Repository_Checkpoint { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Repository_CreateRepository { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_Repository__Checkpoint { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Logging_WER { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_LongRunningTransaction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Macros { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Macros_Evaluators_Package { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Macros_MacroExpandData { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Maintenance { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_MultiUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Notifications_NotificationChannel { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Notifications_NotificationChannels { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_PackageDependency { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ProcessIdList_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ProcessPackageDependency { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ProcessPackageDependency_PackageDependency { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ProcessPackageDependency_PackageDependencyList { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ProcessPackageDependency_PackageDependencyManager { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_RPC_Caller { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Repair { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Repair_ARI { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Repair_AppxMiniRepository { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Repair_PackageMiniRepository { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Repository { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ResourcePriority_AutoCpuPriority { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ResourcePriority_AutoIoPriority { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ResourcePriority_AutoPriority { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ResourcePriority_AutoThreadPriority_22__enum__IO_PRIORITY_HINT__struct__FILE_IO_PRIORITY_HINT_INFORMATION { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ResourcePriority_AutoThreadPriority_24__unsigned_long__struct__MEMORY_PRIORITY_INFORMATION { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ResourcePriority_AutoThreadPriority_25__long__long { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ResourcePriority_AutoThreadPriority_49__bool__struct__THREAD_POWER_THROTTLING_STATE { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Security { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Security_AccessControl { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Service { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ServiceControl { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ServiceMain_AutoLog_ServiceStart { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ServiceMain_AutoShutdown { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_ServiceRpc { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Service_AutoElapsedTime { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Service_InProgressCallback { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Service_MonitorInitialization { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Snapshot { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Statement { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_StatementCache { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_StatementCacheEntry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_StatementExecution { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_StatementExecution_StatementBinderFunc_BinderCallbackBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_StringList_NoThrow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Text { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_TextA { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Time { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Trace_RPC_PackageDependency_Add { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Trace_RPC_PackageDependency_Create { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Trace_RPC_PackageDependency_Delete { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Trace_RPC_PackageDependency_ExistsByUserAndPackageFullName { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Trace_RPC_PackageDependency_FindPackageDependency { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Trace_RPC_PackageDependency_GetIdForPackageDependencyContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Trace_RPC_PackageDependency_GetPackageDependencyInformation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Trace_RPC_PackageDependency_GetProcessesUsingPackageDependency { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Trace_RPC_PackageDependency_GetResolvedPackageFullName { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Trace_RPC_PackageDependency_GetResolvedPackageFullName2 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Trace_RPC_PackageDependency_Remove { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Trace_RPC_PackageDependency_Rundown { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Trace_WinRT_API_Method { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Tracing_Client { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Tracing_Core { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Tracing_Service { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_Utf16String { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_VfsNoImpersonation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_WinRT_Caller { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_WinRT_Client_RequestInProgress { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_WinRT_DAL_Statement { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_WinRT_DataAccessLayer_User { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct StateRepository_WinRT_Foundation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_detail { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ActivationFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ActivationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppExecutionAliasFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppExecutionAliasServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppExecutionAliasUserFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppExecutionAliasUserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppExtensionFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppExtensionHostFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppExtensionHostServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppExtensionServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppInstallerFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppInstallerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppInstallerUriFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppInstallerUriServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppServiceFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppServiceServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppUriHandlerFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppUriHandlerGroupFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppUriHandlerGroupServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppUriHandlerLauncherInfoServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppUriHandlerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ApplicationBackgroundTaskFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ApplicationBackgroundTaskServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ApplicationExtensionFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ApplicationExtensionServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ApplicationFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ApplicationIdentityFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ApplicationIdentityServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ApplicationPropertyFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ApplicationPropertyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ApplicationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppxManifestFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AppxManifestServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AutoUpdatePackageFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_AutoUpdatePackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_BundleFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_BundlePackageFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_BundlePackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_BundleServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ContentGroupFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ContentGroupFileFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ContentGroupFileServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ContentGroupServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_CustomInstallWorkFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_CustomInstallWorkServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_DefaultTileFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_DefaultTileServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_DependencyGraphFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_DependencyGraphServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_DeploymentHistoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_DynamicAppUriHandlerFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_DynamicAppUriHandlerGroupFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_DynamicAppUriHandlerGroupServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_DynamicAppUriHandlerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_EnterpriseFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_EnterpriseServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_FileFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_FileServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_FileTypeAssociationFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_FileTypeAssociationLauncherInfoServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_FileTypeAssociationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_HostRuntimeFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_HostRuntimeServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_Management_RepositoryManagerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_MrtApplicationFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_MrtApplicationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_MrtPackageFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_MrtPackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_MrtSharedPriFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_MrtSharedPriServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_MrtUserPriFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_MrtUserPriServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_NamedDependencyFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_NamedDependencyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_OptionalBundleFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_OptionalBundleServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageAppInstallerFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageAppInstallerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageExtensionFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageExtensionServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageExternalLocationFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageExternalLocationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageFamilyFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageFamilyPolicyFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageFamilyPolicyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageFamilyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageFamilyUserFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageFamilyUserResourceFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageFamilyUserResourceServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageFamilyUserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageIdentityFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageIdentityServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageLocationFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageLocationServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageMachineStatusFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageMachineStatusServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackagePolicyFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackagePolicyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackagePropertyFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackagePropertyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageSourceUriFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageSourceUriServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageUserFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageUserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageUserStatusFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PackageUserStatusServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PkgExtensionFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PkgExtensionHostFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PkgExtensionHostServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PkgExtensionServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PrimaryTileFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PrimaryTileServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PrimaryTileUserChangelogFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PrimaryTileUserChangelogServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PrimaryTileUserDataChangeServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PrimaryTileUserFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PrimaryTileUserNotificationChannelFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PrimaryTileUserNotificationChannelServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PrimaryTileUserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PrimaryTileViewFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_PrimaryTileViewServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ProtocolFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ProtocolLauncherInfoServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_ProtocolServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_SecondaryTileFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_SecondaryTileServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_SecondaryTileUserChangelogFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_SecondaryTileUserChangelogServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_SecondaryTileUserDataChangeServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_SecondaryTileUserFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_SecondaryTileUserNotificationChannelFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_SecondaryTileUserNotificationChannelServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_SecondaryTileUserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_SecondaryTileViewFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_SecondaryTileViewServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_SharedPackageContainerFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_SharedPackageContainerPackageFamilyFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_SharedPackageContainerPackageFamilyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_SharedPackageContainerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_TargetDeviceFamilyFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_TargetDeviceFamilyServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_TileViewFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_TileViewQueryFilterServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_TileViewServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_UserFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_UserServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_UupProductFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_UupProductPackageFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_UupProductPackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_UupProductServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_XboxPackageFactoryServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StateRepository_XboxPackageServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_String { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StringReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_0374aa0a5d1201b2358c6bce99369c58 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_152aa9d2a3a0648fa2fa7fcef514b376 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_1ad7ecfab602a777ecf020873216a663 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_1af0911b883bb9c47756bb2ef208bbf6 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_2ca819c5586e99ce0a6c8590b7010565 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_5035b992506f4af81a770c5842624510 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_5bcb2f18af6d9428ad62e49f754ed5e4 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_7843f72903bba4725eb76efb07f891e2 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_aa194dc0bf891154933407eb98fb868a { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_b70241e9b5ebaad244db3e52d52cab17 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_d51448ba32f8ef42e59400edd4566183 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_da28d6e557913c0bc06019403f3de940 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_fee8cea507d2413a58be13acfb66740a { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_details { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_details_merged_data_struct__tip_AddDependencyToProcessPackageGraphInboxScenarioPublicApiTipTest__struct__tip_AddDependencyToProcessPackageGraphInboxScenarioPublicApiTipTest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_details_shared_data_0__0__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_details_test_data_interface { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_test_data_control_class_tip2__details__merged_data_struct__tip_AddDependencyToProcessPackageGraphInboxScenarioPublicApiTipTest__struct__tip_AddDependencyToProcessPackageGraphInboxScenarioPublicApiTipTest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_test_state { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_test_watcher_class_tip2__details__merged_data_struct__tip_AddDependencyToProcessPackageGraphInboxScenarioPublicApiTipTest__struct__tip_AddDependencyToProcessPackageGraphInboxScenarioPublicApiTipTest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_tip_test_class_tip2__details__merged_data_struct__tip_AddDependencyToProcessPackageGraphInboxScenarioPublicApiTipTest__struct__tip_AddDependencyToProcessPackageGraphInboxScenarioPublicApiTipTest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_vector_nothrow_struct_tip2__test_flag { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip_AddDependencyToProcessPackageGraphInboxScenarioPublicApiTipTest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tson { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tson_details_stack_enum_tson__output_archive__node_type { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tson_input_archive { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tson_output_archive { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tson_read_buffer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tson_write_buffer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct type_info { _opaque: [u8; 0] }
+

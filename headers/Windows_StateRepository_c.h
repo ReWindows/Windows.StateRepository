@@ -1,0 +1,32 @@
+// Flat C exports observed in Windows.StateRepository.dll. Unknown ABIs are intentionally not declared.
+// Validated dialects: ISO C17/C23/C26 draft and Windissect C20 (C ABI under C++20).
+#pragma once
+#ifndef WINDOWS_STATEREPOSITORY_C_H
+#define WINDOWS_STATEREPOSITORY_C_H
+#if defined(__cplusplus)
+#  if __cplusplus < 202002L
+#    define WINDISSECT_C20_PROFILE 0
+#  else
+#    define WINDISSECT_C20_PROFILE 1
+#  endif
+extern "C" {
+#else
+#  if defined(__STDC_VERSION__) && __STDC_VERSION__ < 201710L
+#    error "Windissect C output requires C17 or newer"
+#  endif
+#  define WINDISSECT_C20_PROFILE 0
+#  define WINDISSECT_C_STANDARD __STDC_VERSION__
+#endif
+
+// Export: StateRepository_DataAccessLayer_DatabaseCache_Add (ABI unverified)
+// Export: StateRepository_DataAccessLayer_DatabaseCache_Get (ABI unverified)
+// Export: StateRepository_Initialize (ABI unverified)
+// Export: StateRepository_Shutdown (ABI unverified)
+// Export: ServiceMain (ABI unverified)
+// Export: SvchostPushServiceGlobals (ABI unverified)
+// Export: StateRepository_Service_UpdateStatus (ABI unverified)
+
+#ifdef __cplusplus
+} // extern "C"
+#endif
+#endif // WINDOWS_STATEREPOSITORY_C_H
